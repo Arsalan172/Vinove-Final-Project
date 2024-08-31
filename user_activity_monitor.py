@@ -11,7 +11,6 @@ from threading import Thread
 from datetime import datetime
 
 
-# Import platform-specific modules
 if platform.system() == 'Windows':
     import win32gui
     from PIL import ImageGrab
@@ -36,7 +35,6 @@ mouse_clicks = 0
 #S3_REGION = 'us-east-1'
 #UPLOAD_PATH = 'screenshots/'
 
-#uncomment this before running the project as the AWS S3 configuration path is required for saving the screenshots.
 
 
 
