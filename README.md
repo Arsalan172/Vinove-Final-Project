@@ -14,32 +14,18 @@ The **Employee Activity Tracker** is a Python-based desktop agent application de
 
 ## Installation
 
-To install and run the Employee Activity Tracker, follow these steps:
-
-1. **Clone the Repository:**
-
-    ```bash
-    git clone https://github.com/yourusername/employee-activity-tracker.git
-    ```
-
-2. **Navigate to the Project Directory:**
-
-    ```bash
-    cd employee-activity-tracker
-    ```
-
-3. **Create a Virtual Environment:**
+1. **Create a Virtual Environment:**
 
     ```bash
     python -m venv venv
     ```
 
-4. **Activate the Virtual Environment:**
+2. **Activate the Virtual Environment:**
 
     - On Windows:
 
         ```bash
-        venv\Scripts\activate
+        venv\Scripts\activate\Activate.ps1
         ```
 
     - On macOS/Linux:
@@ -48,20 +34,24 @@ To install and run the Employee Activity Tracker, follow these steps:
         source venv/bin/activate
         ```
 
-5. **Install Required Dependencies:**
+3. **Install Required Dependencies:**
 
     ```bash
-    pip install -r requirements.txt
+    pip install boto3
+    pip install pynput
+    pip install win32gui
+    pip install pillow
+    pip install 
     ```
 
-6. **Configure the Application:**
+4. **Configure the Application:**
 
     Create a configuration file named `config.json` in the root directory with the necessary settings for cloud storage and other configurations.
 
-7. **Run the Application:**
+5. **Run the Application:**
 
     ```bash
-    python main.py
+    python user_activity_monitor.py
     ```
 
 ## Configuration
