@@ -78,3 +78,6 @@ GitHub for hosting the repository.
 we can add more additional features to this application like Authentication , Dashboards for the admins .
 
 
+![screenshot_20240831_165102](https://github.com/user-attachments/assets/846c44a5-7b71-4111-b40b-1f035e972c26)
+
+
