@@ -7,7 +7,7 @@ The **Employee Activity Tracker** is a Python-based desktop agent application de
 ## Features
 
 - **Activity Monitoring:** Tracks genuine user activity to ensure accurate data collection.
-- **Screenshot Capture:** Periodically takes screenshots to record user activity.
+- **Screenshot Capture:** Periodically takes screenshots after every 60 seconds to record user activity.
 - **Cloud Storage Integration:** Uploads captured data to Amazon S3 or a similar cloud storage service.
 - **Configuration Management:** Handles configuration changes dynamically to adapt to different environments.
 - **Robust Design:** Adheres to best practices in software development, including error handling and logging.
@@ -31,7 +31,7 @@ The **Employee Activity Tracker** is a Python-based desktop agent application de
     - On macOS/Linux:
 
         ```bash
-        source venv/bin/activate
+        source venv/bin/activate.ps1
         ```
 
 3. **Install Required Dependencies:**
@@ -61,12 +61,12 @@ The application configuration is managed through a `config.json` file. Below is 
 {
   "cloud_storage": {
     "service": "amazon_s3",
-    "bucket_name": "your-bucket-name",
+    "bucket_name": "vinnove",
     "access_key": "your-access-key",
     "secret_key": "your-secret-key"
   },
   "screenshot": {
-    "interval": 300
+    "interval": 60(s)
   }
 }
 
