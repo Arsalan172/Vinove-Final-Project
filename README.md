@@ -92,4 +92,4 @@ Python for the programming language.
 GitHub for hosting the repository.
 
 
-Previews:
+**Previews:**
