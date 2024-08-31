@@ -70,6 +70,10 @@ The application configuration is managed through a `config.json` file. Below is 
   }
 }
 
+# Several steps to S3 configuration roles:-
+-> Created a IAM role in AWS and attached the policy(S3 full access) to create a custom password.
+-> Attached json file in bucket policy.
+-> After configuring and completing the above steps ,the screenshots are now stored in the S3 bucket. 
 
 
 cloud_storage: Configuration details for the cloud storage service.
