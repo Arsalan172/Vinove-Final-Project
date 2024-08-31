@@ -71,7 +71,7 @@ Acknowledgments
 Amazon S3 for cloud storage services.
 Python for the programming language.
 GitHub for hosting the repository.
-![Uploading project_screenshot.png…]()
+
 
 
 **Previews:**
