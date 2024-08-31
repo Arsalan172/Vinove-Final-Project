@@ -41,7 +41,6 @@ The **Employee Activity Tracker** is a Python-based desktop agent application de
     pip install pynput
     pip install win32gui
     pip install pillow
-    pip install 
     ```
 
 4. **Configure the Application:**
