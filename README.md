@@ -77,11 +77,15 @@ GitHub for hosting the repository.
 # Conclusion:-
 we can add more additional features to this application like Authentication , Dashboards for the admins .
 
+# Screenshots:-
+These screenshots are stored in AWS S3 Bucket.
+
 ![screenshot_20240831_165037](https://github.com/user-attachments/assets/ab73924d-4bf5-44b5-a476-22428a73dd8e)
 
 
 ![screenshot_20240831_165102](https://github.com/user-attachments/assets/846c44a5-7b71-4111-b40b-1f035e972c26)
 
+# This is the application which is running in background.
 
 ![Screenshot 2024-08-31 180554](https://github.com/user-attachments/assets/89b2e9cc-ebe2-42de-bc72-886c7169ea6a)
 
