@@ -74,6 +74,7 @@ GitHub for hosting the repository.
 
 
 
-**Previews:**
+# Conclusion:-
+we can add more additional features to this application like Authentication , Dashboards for the admins .
 
 
