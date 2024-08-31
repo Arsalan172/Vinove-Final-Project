@@ -17,7 +17,7 @@ The **Employee Activity Tracker** is a Python-based desktop agent application de
 1. **Create a Virtual Environment:**
 
     ```bash
-    python -m venv venv
+    python -m venv C:\V_E\venv
     ```
 
 2. **Activate the Virtual Environment:**
