@@ -57,18 +57,6 @@ The **Employee Activity Tracker** is a Python-based desktop agent application de
 
 The application configuration is managed through a `config.json` file. Below is a sample configuration file:
 
-```json
-{
-  "cloud_storage": {
-    "service": "amazon_s3",
-    "bucket_name": "vinnove",
-    "access_key": "your-access-key",
-    "secret_key": "your-secret-key"
-  },
-  "screenshot": {
-    "interval": 60(s)
-  }
-}
 
 # Several steps to S3 configuration roles:-
 -> Created a IAM role in AWS and attached the policy(S3 full access) to create a custom password.
