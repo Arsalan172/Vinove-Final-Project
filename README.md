@@ -51,8 +51,12 @@ The **Employee Activity Tracker** is a Python-based desktop agent application de
 
     ```bash
     python user_activity_monitor.py
+    
     ```
 
+6. ** To finally run the code **
+        ``` uncomment the commented code i.e AWS S3 configuration , it contains the access keys ```
+       ```  the reason behind commenting this AWS S3 confuguration is that Github dont allow the secret keys to be uploaded in a file ```
 ## Configuration
 
 The application configuration is managed through a `config.json` file. Below is a sample configuration file:
